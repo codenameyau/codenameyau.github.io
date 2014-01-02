@@ -25,7 +25,7 @@ body {
   margin-right: -250px;
   right: 0;
   width: 250px;
-  background: rgba(0,0,0,.85);
+  background: rgba(0,0,0,.75);
   font-size: 16px;
   position: fixed;
   height: 100%;
@@ -102,7 +102,7 @@ body {
 }
 
 .toggle {
-  margin: 5px 5px 0 0;
+  margin: 20px 20px 0 0;
 }
 
 /* Full Page Image Header Area */
@@ -116,6 +116,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow-x: hidden;
 }
 
 /* Intro */
@@ -195,12 +196,6 @@ i.service-icon {
 
 .map {
   height: 500px;
-}
-
-/* Footer */
-
-footer {
-  padding: 100px 0;
 }
 
 .top-scroll {

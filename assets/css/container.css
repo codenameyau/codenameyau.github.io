@@ -1,6 +1,6 @@
 /* Backgrounds */
 .bg-clear {
-    background: rgba(0,0,0,.8);
+    background: rgba(0,0,0,.85);
 }
 
 .bg-welcome {
@@ -11,8 +11,16 @@
     background: rgba(187, 248, 207, 0.9);
 }
 
+.bg-skills {
+    background: rgba(15, 104, 150, 0.98);
+}
 
 /* Spacing */
 .space-bottom {
     margin-bottom: 50px;
 }
+
+.list-inline {
+    word-spacing: 30px;
+}
+
