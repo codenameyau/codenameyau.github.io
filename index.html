@@ -6,8 +6,8 @@
     <meta name="description" content="Welcome to Codenameyau -- from a web developer in New York">
     <meta name="author" content="Jorge Yau">
 
-    <title>Codenameyau | My Portfolio</title>
-
+    <title>Codenameyau | Portfolio</title>
+    <link rel="icon" type="image/png" href="/assets/img/favicon.png">
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
@@ -18,8 +18,8 @@
     <link href="/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="/assets/css/typography.css" rel="stylesheet">
     <link href="/assets/css/container.css" rel="stylesheet">
-
   </head>
+
 
   <body>
     <!-- Side Menu -->
@@ -34,11 +34,13 @@
         <li><a href="#about"><i class="fa fa-user"></i> About Me</a></li>
         <li><a href="#skills"><i class="fa fa-wrench"></i> Skills</a></li>
         <li><a href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>
+        <li><a href="#footer"><i class="fa fa-link"></i> Links</a></li>
       </ul>
     </div>
     <!-- /Side Menu -->
 
-    <!-- Full Page Image Header Area -->
+
+    <!-- Welcome -->
     <div id="top" class="header bg-welcome">
       <div class="vert-text">
         <h1><i class="fa fa-power-off"></i> Codenameyau</h1>
@@ -51,7 +53,7 @@
           <i class="fa fa-chevron-down"></i> Let's Get Started</a>
       </div>
     </div>
-    <!-- /Full Page Image Header Area -->
+    <!-- /Welcome -->
 
 
     <!-- Portfolio -->
@@ -65,6 +67,7 @@
             <hr>
           </div>
         </div>
+
         <div class="row">
           <div class="col-md-4 col-md-offset-2 text-center">
             <div class="portfolio-item">
@@ -83,6 +86,7 @@
             </div>
           </div>
         </div>
+
         <div class="row">
           <div class="col-md-4 col-md-offset-2 text-center">
             <div class="portfolio-item">
@@ -141,45 +145,49 @@
         <div class="row">
           <div class="col-md-4 col-md-offset-4 text-center">
             <div class="text-center">
-              <h2 class="text-dark"><i class="fa fa-wrench"></i>Skills &amp; Specialties</h2>
+              <h2 class="text-dark">
+                <i class="fa fa-wrench"></i>Skills &amp; Specialties
+              </h2>
             </div>
-            <hr>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-xs-4 col-xs-offset-2">
+            <div class="service-item">
+              <i class="service-icon fa fa-linux"></i>
+              <h4>Communicating with Computers</h4>
+              <p>
+                Better known as programming and typing commands in a terminal. I'm fluent in using Linux as my main development environment. My strongest languages are Python, JavaScript, C, and Scheme.
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="service-item">
+              <i class="service-icon fa fa-cogs"></i>
+              <h4>Software Engineering</h4>
+              <p>
+                Need a robust and maintainable application? I specialize in designing DRY, modular systems while following Agile principles. My tools include unit testing and version control with Git or Mercurial.
+              </p>
+            </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-2 col-md-offset-2 text-center">
+          <div class="col-xs-4 col-xs-offset-2">
             <div class="service-item">
-              <i class="service-icon fa fa-rocket"></i>
-              <h4>Spacecraft Repair</h4>
+              <i class="service-icon fa fa-laptop"></i>
+              <h4>Web Development</h4>
               <p>
-                Did your navigation system shut down in the middle of that asteroid field? We can repair any dings and scrapes to your spacecraft!
+                Frameworks? RESTful APIs? How about deployment? Not a problem. I'm experienced with developing and deploying web applications. I specialize in Django. Currently I'm learning AngularJS and MeteorJS.
               </p>
             </div>
           </div>
-          <div class="col-md-2 text-center">
-            <div class="service-item">
-              <i class="service-icon fa fa-magnet"></i>
-              <h4>Problem Solving</h4>
-              <p>
-                Need to know how magnets work? Our problem solving solutions team can help you identify problems and conduct exploratory research.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-2 text-center">
-            <div class="service-item">
-              <i class="service-icon fa fa-shield"></i>
-              <h4>Blacksmithing</h4>
-              <p>
-                Planning a time travel trip to the middle ages? Preserve the space time continuum by blending in with period accurate armor and weapons.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-2 text-center">
+          <div class="col-xs-4">
             <div class="service-item">
               <i class="service-icon fa fa-pencil"></i>
-              <h4>Pencil Sharpening</h4>
+              <h4>Website Design</h4>
               <p>
-                We've been voted the best pencil sharpening service for 10 consecutive years. If you have a pencil that feels dull, we'll get it sharp!
+                I design websites with aesthetic pleasing elements and meticulous attention to details. I specialize in designing responsive single page websites. My toolbox includes Google Fonts, jQuery, and Bootstrap.
               </p>
             </div>
           </div>
@@ -219,7 +227,7 @@
 
 
     <!-- Footer -->
-    <footer class="header bg-clear text-white">
+    <footer id="footer" class="header bg-clear text-white">
       <div class="container vert-text">
         <div class="row text-center">
           <div class="text-center">

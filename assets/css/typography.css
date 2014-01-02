@@ -6,6 +6,12 @@ h1, h2, h3 {
     margin: auto;
 }
 
+h4 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    cursor: default;
+    font-weight: 700;
+}
+
 body {
     font-family: 'Alegreya Sans SC', sans-serif;
 }
@@ -28,3 +34,4 @@ p {
 .text-dark { color: #3c3c3c; }
 .text-justify { text-align: justify;}
 .text-left {text-align: left;}
+.text-center {text-align: center;}
