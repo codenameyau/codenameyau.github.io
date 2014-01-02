@@ -1,13 +1,29 @@
 h1, h2, h3 {
     font-family: 'Alegreya Sans SC', sans-serif;
     letter-spacing: 3px;
-    color: #fafafa;
+    color: #fcfcfc;
+    cursor: default;
 }
 
-.text-white {
-    color: #fafafa;
+body {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+}
+
+.fa {
+    display: inline;
+    margin-right: 3px;
 }
 
 .btn {
     color: #5c5c5c;
+    border: none;
 }
+
+.text-white { color: #fafafa; }
+.text-dark { color: #3c3c3c; }
+.text-justify { text-align: justify;}
+.text-left {text-align: left;}
