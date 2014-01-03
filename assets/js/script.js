@@ -1,4 +1,5 @@
 $(function() {
+    $("#email-address").text('codenameyau@gmail.com');
     $("h2").transition({scale: 1.2, delay: 2000 });
     $("#start-btn").transition({y: '80px', delay: 5000});
 });

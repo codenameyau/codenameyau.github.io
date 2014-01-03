@@ -4,15 +4,28 @@
 }
 
 .bg-welcome {
+    /*background: url('/assets/img/groovepaper.png') repeat transparent;*/
     background: rgba(95, 219, 224, .9);
 }
 
 .bg-intro {
-    background: rgba(187, 248, 207, 0.9);
+    background: rgba(16, 132, 192, 0.95);
+}
+
+.bg-portfolio {
+    background: url('/assets/img/pinstripe.png') repeat transparent;
 }
 
 .bg-skills {
-    background: rgba(15, 104, 150, 0.98);
+    background: url('/assets/img/groovepaper.png') repeat transparent;
+}
+
+.bg-contact {
+    background: url('/assets/img/navy-blue.png') repeat transparent;
+}
+
+.bg-footer {
+    background: url('/assets/img/noisy_net.png') repeat transparent;
 }
 
 /* Spacing */

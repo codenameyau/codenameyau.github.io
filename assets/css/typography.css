@@ -20,6 +20,8 @@ p {
     font-family: 'Roboto Slab', serif;
 }
 
+hr {border-color: #8c8c8c;}
+
 .fa {
     display: inline;
     margin-right: 3px;
@@ -28,6 +30,12 @@ p {
 .btn {
     color: #5c5c5c;
     border: none;
+}
+
+.social-links a,
+.social-links a:hover {
+    color: #fafafa;
+    text-decoration: none;
 }
 
 .text-white { color: #fafafa; }
