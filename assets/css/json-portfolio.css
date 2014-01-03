@@ -1,0 +1,21 @@
+/*!
+ * json-portfolio.css
+ * codenameyau.github.io
+ */
+
+.json-portfolio-header {
+    border: 0;
+    padding-bottom: 0px;
+}
+
+.json-portfolio-title {
+    color: #3c3c3c;
+}
+
+.json-portfolio-caption {
+    margin-top: 20px;
+    text-align: center;
+    background: rgba(0,0,0,.85);
+    color: #fafafa;
+}
+
