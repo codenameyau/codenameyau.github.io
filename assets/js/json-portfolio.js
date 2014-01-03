@@ -1,12 +1,14 @@
 /*!
+ * GNU General Public License 2014
  * json-bs-portfolio.js
  * codenameyau.github.io
- *
- * GNU General Public License 2014
  */
 
 // Initializes gallery, include in main script
 function jsonGallery(jsonFile, rows, colSize, colOffset) {
+
+    // Initialize modal popup
+    initImageModal();
 
     // Default bootstrap columns
     colSize   = colSize   || 4;
@@ -47,10 +49,8 @@ function jsonGallery(jsonFile, rows, colSize, colOffset) {
 
 // Create image modal popup
 function initImageModal() {
+    $('<div class="modal fade" id="jsonPortfolioModal" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel" id="jsonPortfolioTitle">Hello World</h4></div><div class="modal-body" id="jsonPortfolioBody"></div></div></div></div>').appendTo('#portfolio-gallery');}
 
-
-
-}
 
 // Click on thumbnail
 $(document.body).on('click', '.img-thumbnail', function() {
