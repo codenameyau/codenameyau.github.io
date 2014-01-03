@@ -16,8 +16,12 @@ body {
     font-family: 'Alegreya Sans SC', sans-serif;
 }
 
-p {
+p, blockquote {
     font-family: 'Roboto Slab', serif;
+}
+
+blockquote {
+    background: rgba(255,255,255,.1);
 }
 
 hr {border-color: #8c8c8c;}

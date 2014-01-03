@@ -13,19 +13,19 @@
 }
 
 .bg-portfolio {
-    background: url('/assets/img/pinstripe.png') repeat transparent;
+    background: url('/assets/img/bg/pinstripe.png') repeat transparent;
 }
 
 .bg-skills {
-    background: url('/assets/img/groovepaper.png') repeat transparent;
+    background: url('/assets/img/bg/groovepaper.png') repeat transparent;
 }
 
 .bg-contact {
-    background: url('/assets/img/navy-blue.png') repeat transparent;
+    background: url('/assets/img/bg/navy-blue.png') repeat transparent;
 }
 
 .bg-footer {
-    background: url('/assets/img/noisy_net.png') repeat transparent;
+    background: url('/assets/img/bg/noisy_net.png') repeat transparent;
 }
 
 /* Spacing */
