@@ -2,6 +2,20 @@
   "portfolio" : [
 
     {
+      "title" : "InformaTrip",
+      "image" : "/assets/img/portfolio-1.jpg",
+      "caption" : "Summer 2013",
+      "link" : "https:www.informatrip.com"
+    },
+
+    {
+      "title" : "Technetium",
+      "image" : "/assets/img/portfolio-2.jpg",
+      "caption" : "Fall 2013",
+      "link" : "https://technetium.heroku.com"
+    },
+
+    {
       "title" : "City Scape 1",
       "image" : "/assets/img/portfolio-1.jpg",
       "caption" : "This is a city scape",
@@ -9,40 +23,18 @@
     },
 
     {
-      "title" : "Is that on fire 1",
-      "image" : "/assets/img/portfolio-2.jpg",
-      "caption" : "The building is on fire",
-      "link" : "http://codenameyau.github.io"
-    },
-
-    {
-      "title" : "City Scape 1",
+      "title" : "InformaTrip",
       "image" : "/assets/img/portfolio-1.jpg",
-      "caption" : "This is a city scape",
-      "link" : "http://codenameyau.github.io"
+      "caption" : "Summer 2013",
+      "link" : "https:www.informatrip.com"
     },
 
     {
-      "title" : "Is that on fire 1",
+      "title" : "Technetium",
       "image" : "/assets/img/portfolio-2.jpg",
-      "caption" : "The building is on fire",
-      "link" : "http://codenameyau.github.io"
-    },
-
-    {
-      "title" : "City Scape",
-      "image" : "/assets/img/portfolio-3.jpg",
-      "caption" : "This is a city scape",
-      "link" : "http://codenameyau.github.io"
-    },
-
-    {
-      "title" : "Is that on fire",
-      "image" : "/assets/img/portfolio-4.jpg",
-      "caption" : "The building is on fire",
-      "link" : "http://codenameyau.github.io"
+      "caption" : "Fall 2013",
+      "link" : "https://technetium.heroku.com"
     }
-
 
   ]
 }
