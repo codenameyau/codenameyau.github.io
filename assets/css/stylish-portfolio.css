@@ -181,8 +181,10 @@ i.service-icon:hover {
   margin-bottom: 25px;
 }
 
-.img-portfolio {
+.img-portfolio,
+.img-thumbnail {
   margin: 0 auto;
+  cursor: pointer;
 }
 
 
