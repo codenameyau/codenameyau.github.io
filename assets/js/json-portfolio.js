@@ -36,7 +36,7 @@ function jsonGallery(jsonFile, thumbnailSize, numCols, colOffset) {
                 newImage += newThumbnail.newCol;
 
             // Add new portfolio item
-            newImage += '<div class="portfolio-item"><img class="img-json-portfolio img-thumbnail img-responsive" src="' + val.image + '" data-img="'+ val.image +'" data-title="'+ val.title +'" data-caption="'+ val.caption +'" data-toggle="modal" data-target="#jsonPortfolioModal"><h4><a href="'+ val.link +'">'+ val.title + '</a></h4></div></div>';
+            newImage += '<div class="portfolio-item"><img class="img-json-portfolio img-thumbnail img-responsive" src="' + val.image + '" data-img="'+ val.image +'" data-title="'+ val.title +'" data-caption="'+ val.caption +'" data-toggle="modal" data-target="#jsonPortfolioModal"><h4><a href="'+ val.link +'" target="_blank">'+ val.title + '</a></h4></div></div>';
 
             // Close row
             if (index%count == numCols-1)

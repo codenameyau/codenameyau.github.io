@@ -8,14 +8,19 @@
     padding-bottom: 0px;
 }
 
-.json-portfolio-title {
+.json-portfolio-title,
+#jsonPortfolioTitle {
     color: #3c3c3c;
+    border: 0;
+    padding-bottom: 0px;
 }
 
 .json-portfolio-caption {
     margin-top: 20px;
     text-align: center;
     background: rgba(0,0,0,.85);
-    color: #fafafa;
+    color: #bbbbbb;
+    font-size: 15px;
+    letter-spacing: 1px;
 }
 
