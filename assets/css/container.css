@@ -1,32 +1,12 @@
 /* Backgrounds */
-.bg-clear {
-    background: rgba(0,0,0,.85);
-}
+.bg-clear { background: rgba(0,0,0,.85); }
+.bg-welcome { background: rgba(43, 199, 206, 0.82); }
+.bg-intro { background: rgba(16, 132, 192, 0.95); }
+.bg-portfolio { background: url('/assets/img/bg/pinstripe.png') repeat transparent; }
+.bg-skills { background: url('/assets/img/bg/groovepaper.png') repeat transparent; }
+.bg-contact { background: url('/assets/img/bg/navy-blue.png') repeat transparent; }
+.bg-footer { background: url('/assets/img/bg/noisy_net.png') repeat transparent; }
 
-.bg-welcome {
-    /*background: url('/assets/img/groovepaper.png') repeat transparent;*/
-    background: rgba(95, 219, 224, .9);
-}
-
-.bg-intro {
-    background: rgba(16, 132, 192, 0.95);
-}
-
-.bg-portfolio {
-    background: url('/assets/img/bg/pinstripe.png') repeat transparent;
-}
-
-.bg-skills {
-    background: url('/assets/img/bg/groovepaper.png') repeat transparent;
-}
-
-.bg-contact {
-    background: url('/assets/img/bg/navy-blue.png') repeat transparent;
-}
-
-.bg-footer {
-    background: url('/assets/img/bg/noisy_net.png') repeat transparent;
-}
 
 /* Spacing */
 .space-bottom {

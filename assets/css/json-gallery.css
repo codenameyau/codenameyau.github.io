@@ -1,0 +1,29 @@
+/*!
+ * json-gallery.css
+ * codenameyau.github.io
+ */
+
+.json-gallery-header {
+    border: 0;
+    padding-bottom: 0px;
+}
+
+.json-gallery-title,
+#jsonGalleryTitle {
+    color: #3c3c3c;
+    border: 0;
+    padding-bottom: 0px;
+}
+
+.json-gallery-caption {
+    text-align: center;
+    background: rgba(0,0,0,.85);
+    color: #bbbbbb;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.modal-content {background: rgba(0,0,0,.7);}
+.modal-dialog {width: 75%;}
+.modal-footer {margin-top: 0px; border: none;}
+.img-json-gallery {height: inherit;}

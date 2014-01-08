@@ -1,16 +1,18 @@
 {
-  "portfolio" : [
+  "gallery" : [
 
     {
       "title" : "HVRMINN",
       "image" : "/assets/img/portfolio-1.jpg",
+      "thumbail" : "/assets/img/technetium/technetium-issues-thumbnail.jpg",
       "caption" : "Winter 2014 - Fashion portfolio redesgined with jQuery",
       "link" : "http://hvrminn.com/"
     },
 
     {
       "title" : "Technetium",
-      "image" : "/assets/img/portfolio-2.jpg",
+      "image" : "/assets/img/technetium/technetium-issues.jpg",
+      "thumbail" : "/assets/img/technetium/technetium-issues-thumbnail.jpg",
       "caption" : "Fall 2013 - Centralized issue tracker, reports, and graphs for bitbucket",
       "link" : "https://technetium.heroku.com"
     },
@@ -18,6 +20,7 @@
     {
       "title" : "InformaTrip",
       "image" : "/assets/img/portfolio-1.jpg",
+      "thumbail" : "/assets/img/technetium/technetium-issues-thumbnail.jpg",
       "caption" : "Summer 2013 - Travel deals and discount events aggregator",
       "link" : "https:www.informatrip.com"
     }
