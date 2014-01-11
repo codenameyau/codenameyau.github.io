@@ -2,7 +2,7 @@
   "gallery" : [
 
     {
-      "title" : "HVRMINN",
+      "title" : "Hvrminn",
       "link" : "http://hvrminn.com/",
       "images" : [
         {
@@ -32,34 +32,6 @@
         {
           "image" : "/assets/img/technetium/graphs.jpg",
           "caption" : "Activity breakdown Graphs"
-        }
-      ]
-    },
-
-
-    {
-      "title" : "Fall 2013",
-      "link" : "#sample-portfolio",
-      "images" : [
-        {
-          "image" : "/assets/img/fall-2013/fall-13-1.jpg",
-          "caption" : "Autumn trees in the park"
-        },
-        {
-          "image" : "/assets/img/fall-2013/fall-13-2.jpg",
-          "caption" : "Graceful, placid lake"
-        },
-        {
-          "image" : "/assets/img/fall-2013/fall-13-3.jpg",
-          "caption" : "View of the Autumn sky"
-        },
-        {
-          "image" : "/assets/img/fall-2013/fall-13-4.jpg",
-          "caption" : "Focus on a sole leaf"
-        },
-        {
-          "image" : "/assets/img/fall-2013/fall-13-5.jpg",
-          "caption" : "Overlooking colorful trees"
         }
       ]
     }
