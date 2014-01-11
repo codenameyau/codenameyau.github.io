@@ -9,9 +9,10 @@
 .img-thumbnail-title a:hover {color: #fafafa;}
 
 /* Change thumbnail default height */
-#bootstrap-json-gallery .img-thumbnail {height: 220px; width: 380px;}
-#json-gallery-modal {background: rgba(0,0,0,.5);}
-#json-gallery-modal .modal-body {padding: 0px; background: rgba(255,255,255,.9);}
+#bootstrap-json-gallery .img-thumbnail {height: 280px; width: 450px;}
+#json-gallery-modal {background: rgba(0,0,0,.80);}
+#json-gallery-modal .modal-body {padding: 0px; background: rgba(0,0,0,.90);}
+#json-gallery-modal img {margin: auto;}
 
 /* Change default carousel size */
 .modal-dialog {width: 1000px;}

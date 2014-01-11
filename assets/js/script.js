@@ -1,6 +1,6 @@
 $(function() {
     // Initialize gallery
-    jsonGallery('/assets/data/gallery.json', 4, 3, 0);
+    jsonGallery('/assets/data/gallery.json', 5, 2, 1);
     $("#email-address").html('codenameyau &#64; gmail.com');
     $("#start-btn").transition({y: '40px', delay: 5000});
 });

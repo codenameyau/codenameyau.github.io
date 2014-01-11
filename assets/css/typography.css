@@ -12,7 +12,7 @@ h4 {
     font-weight: 700;
 }
 
-h4 a {color: #cccccc;}
+h4 a {color: #bbbbbb;}
 
 body {font-family: 'Alegreya Sans SC', sans-serif;}
 
@@ -40,6 +40,7 @@ hr {border-color: #999999;}
 
 .text-white { color: #f1f1f1; }
 .text-dark { color: #3d3d3d; }
+.text-gray { color: #cccccc; }
 .text-justify { text-align: justify;}
 .text-left {text-align: left;}
 .text-center {text-align: center;}

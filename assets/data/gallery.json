@@ -2,40 +2,28 @@
   "gallery" : [
 
     {
-      "title" : "Spring 2013",
-      "link" : "#sample-portfolio",
+      "title" : "HVRMINN",
+      "link" : "http://hvrminn.com/",
       "images" : [
         {
-          "image" : "/assets/img/spring-2013/spring-13-1.jpg",
-          "caption" : "Sunburst Twins - Long Caption Example"
-        },
-        {
-          "image" : "/assets/img/spring-2013/spring-13-2.jpg",
-          "caption" : "Bright Contrasting Petals"
-        },
-        {
-          "image" : "/assets/img/spring-2013/spring-13-3.jpg",
-          "caption" : "Blooming Flowers"
-        },
-        {
-          "image" : "/assets/img/spring-2013/spring-13-4.jpg",
-          "caption" : "Nice colors"
+          "image" : "/assets/img/hvrminn/fw13.jpg",
+          "caption" : "hvrminn - nyc mens fashion designer"
         }
       ]
     },
 
 
     {
-      "title" : "Technetium (2013)",
+      "title" : "Technetium",
       "link" : "https://technetium.heroku.com",
       "images" : [
         {
           "image" : "/assets/img/technetium/issues.jpg",
-          "caption" : "Bitbucket centralized issue tracker"
+          "caption" : "Technetium - centralized issue tracker"
         },
         {
           "image" : "/assets/img/technetium/subscriptions.jpg",
-          "caption" : "Repository subscription manager"
+          "caption" : "Bitbucket repository manager"
         },
         {
           "image" : "/assets/img/technetium/reports.jpg",
@@ -43,7 +31,7 @@
         },
         {
           "image" : "/assets/img/technetium/graphs.jpg",
-          "caption" : "Graphs of activity breakdown"
+          "caption" : "Activity breakdown Graphs"
         }
       ]
     },
