@@ -12,31 +12,23 @@ h4 {
     font-weight: 700;
 }
 
-h4 a {
-    color: #3c3c3c;
-}
+h4 a {color: #cccccc;}
 
-body {
-    font-family: 'Alegreya Sans SC', sans-serif;
-}
+body {font-family: 'Alegreya Sans SC', sans-serif;}
 
-p, blockquote {
-    font-family: 'Roboto Slab', serif;
-}
+p, blockquote {font-family: 'Roboto Slab', serif;}
 
-blockquote {
-    background: rgba(255,255,255,.1);
-}
+blockquote {background: rgba(90,90,90,.20); border-left: 3px solid #eee;}
 
-hr {border-color: #8c8c8c;}
+hr {border-color: #999999;}
 
 .fa {
     display: inline;
     margin-right: 3px;
 }
 
-.btn {
-    color: #5c5c5c;
+.btn-primary {
+    color: #fafafa;
     border: none;
 }
 
@@ -46,8 +38,8 @@ hr {border-color: #8c8c8c;}
     text-decoration: none;
 }
 
-.text-white { color: #fafafa; }
-.text-dark { color: #3c3c3c; }
+.text-white { color: #f1f1f1; }
+.text-dark { color: #3d3d3d; }
 .text-justify { text-align: justify;}
 .text-left {text-align: left;}
 .text-center {text-align: center;}

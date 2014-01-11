@@ -3,13 +3,67 @@
  * codenameyau.github.io
  */
 
+
+/* Change thumbnail title color here */
+.img-thumbnail-title a {color: #dddddd;}
+.img-thumbnail-title a:hover {color: #fafafa;}
+
+/* Change thumbnail default height */
+#bootstrap-json-gallery .img-thumbnail {height: 220px; width: 380px;}
+#json-gallery-modal {background: rgba(0,0,0,.5);}
+#json-gallery-modal .modal-body {padding: 0px; background: rgba(255,255,255,.9);}
+
+/* Change default carousel size */
+.modal-dialog {width: 1000px;}
+
+
+/* Override bootstrap carousel */
+.carousel-indicators {
+    position: fixed;
+    top: 10px;
+    left: 0;
+    bottom: 0;
+    margin-left: 0;
+    right: 20px;
+    width: inherit;
+    height: 20px;
+}
+.carousel-indicators li {background: rgba(0,0,0,.3);}
+.carousel-indicators .active {background: rgba(255,255,255,.85);}
+.carousel-indicators li,
+.carousel-indicators .active {
+    margin: 0px 5px;
+    height: 10px;
+    width: 10px;
+}
+
+
+.carousel-control {width: 8%; color: rgba(255,255,255,.35);}
+.carousel-control.left {
+    background-image: linear-gradient(to right,rgba(0,0,0,0.1) 0,rgba(0,0,0,0.0001) 100%)
+}
+.carousel-control.right {
+    background-image: linear-gradient(to right,rgba(0,0,0,0.0001) 0,rgba(0,0,0,0.1) 100%);
+}
+.carousel-control .glyphicon-chevron-left {left: 25%;}
+.carousel-control .glyphicon-chevron-right {right: 25%;}
+.carousel-caption {bottom: 0px; padding: 10px; color: #d1d1d1; letter-spacing: 1px;}
+.carousel-footer-bg {
+    background: rgba(0,0,0,.65);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0px;
+}
+
+/* JSON Modal Gallery */
 .json-gallery-header {
     border: 0;
     padding-bottom: 0px;
 }
 
-.json-gallery-title,
-#jsonGalleryTitle {
+.json-gallery-title {
     color: #3c3c3c;
     border: 0;
     padding-bottom: 0px;
@@ -17,13 +71,16 @@
 
 .json-gallery-caption {
     text-align: center;
-    background: rgba(0,0,0,.85);
-    color: #bbbbbb;
+    background: rgba(0,0,0,.5);
+    color: #cccccc;
     font-size: 14px;
     letter-spacing: 1px;
+    text-transform: capitalize;
 }
 
-.modal-content {background: rgba(0,0,0,.7);}
-.modal-dialog {width: 75%;}
-.modal-footer {margin-top: 0px; border: none;}
-.img-json-gallery {height: inherit;}
+.gallery-item {margin: 5px 0px;}
+.gallery-item:hover {cursor: pointer;}
+
+@media (max-width: 900px) {
+    .modal-dialog {width: 90%; margin: auto;}
+}

@@ -1,17 +1,17 @@
 /* Backgrounds */
 .bg-clear { background: rgba(0,0,0,.85); }
-.bg-welcome { background: rgba(43, 199, 206, 0.82); }
-.bg-intro { background: rgba(16, 132, 192, 0.95); }
-.bg-portfolio { background: url('/assets/img/bg/pinstripe.png') repeat transparent; }
-.bg-skills { background: url('/assets/img/bg/groovepaper.png') repeat transparent; }
-.bg-contact { background: url('/assets/img/bg/navy-blue.png') repeat transparent; }
-.bg-footer { background: url('/assets/img/bg/noisy_net.png') repeat transparent; }
+.bg-welcome { background: url('/assets/img/bg/dark_mosaic.png') repeat; }
+.bg-about { background: url('/assets/img/bg/noisy_net.png') repeat; }
+.bg-portfolio { background: url('/assets/img/bg/dark_denim.png') repeat; }
+.bg-skills { background: url('/assets/img/bg/pixel_weave.png') repeat; }
+.bg-contact { background: url('/assets/img/bg/navy-blue.png') repeat; }
+.bg-footer { background: url('/assets/img/bg/noisy_net.png') repeat; }
 
 
 /* Spacing */
-.space-bottom {
-    margin-bottom: 50px;
-}
+.space-bottom {margin-bottom: 50px;}
+.bottom-40 {margin-bottom: 40px;}
+.bottom-80 {margin-bottom: 80px;}
 
 .list-inline {
     word-spacing: 30px;

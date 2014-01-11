@@ -2,29 +2,79 @@
   "gallery" : [
 
     {
-      "title" : "HVRMINN",
-      "image" : "/assets/img/portfolio-1.jpg",
-      "thumbail" : "/assets/img/technetium/technetium-issues-thumbnail.jpg",
-      "caption" : "Winter 2014 - Fashion portfolio redesgined with jQuery",
-      "link" : "http://hvrminn.com/"
+      "title" : "Spring 2013",
+      "link" : "#sample-portfolio",
+      "images" : [
+        {
+          "image" : "/assets/img/spring-2013/spring-13-1.jpg",
+          "caption" : "Sunburst Twins - Long Caption Example"
+        },
+        {
+          "image" : "/assets/img/spring-2013/spring-13-2.jpg",
+          "caption" : "Bright Contrasting Petals"
+        },
+        {
+          "image" : "/assets/img/spring-2013/spring-13-3.jpg",
+          "caption" : "Blooming Flowers"
+        },
+        {
+          "image" : "/assets/img/spring-2013/spring-13-4.jpg",
+          "caption" : "Nice colors"
+        }
+      ]
     },
 
-    {
-      "title" : "Technetium",
-      "image" : "/assets/img/technetium/technetium-issues.jpg",
-      "thumbail" : "/assets/img/technetium/technetium-issues-thumbnail.jpg",
-      "caption" : "Fall 2013 - Centralized issue tracker, reports, and graphs for bitbucket",
-      "link" : "https://technetium.heroku.com"
-    },
 
     {
-      "title" : "InformaTrip",
-      "image" : "/assets/img/portfolio-1.jpg",
-      "thumbail" : "/assets/img/technetium/technetium-issues-thumbnail.jpg",
-      "caption" : "Summer 2013 - Travel deals and discount events aggregator",
-      "link" : "https:www.informatrip.com"
+      "title" : "Technetium (2013)",
+      "link" : "https://technetium.heroku.com",
+      "images" : [
+        {
+          "image" : "/assets/img/technetium/issues.jpg",
+          "caption" : "Bitbucket centralized issue tracker"
+        },
+        {
+          "image" : "/assets/img/technetium/subscriptions.jpg",
+          "caption" : "Repository subscription manager"
+        },
+        {
+          "image" : "/assets/img/technetium/reports.jpg",
+          "caption" : "Reports and commits activity"
+        },
+        {
+          "image" : "/assets/img/technetium/graphs.jpg",
+          "caption" : "Graphs of activity breakdown"
+        }
+      ]
+    },
+
+
+    {
+      "title" : "Fall 2013",
+      "link" : "#sample-portfolio",
+      "images" : [
+        {
+          "image" : "/assets/img/fall-2013/fall-13-1.jpg",
+          "caption" : "Autumn trees in the park"
+        },
+        {
+          "image" : "/assets/img/fall-2013/fall-13-2.jpg",
+          "caption" : "Graceful, placid lake"
+        },
+        {
+          "image" : "/assets/img/fall-2013/fall-13-3.jpg",
+          "caption" : "View of the Autumn sky"
+        },
+        {
+          "image" : "/assets/img/fall-2013/fall-13-4.jpg",
+          "caption" : "Focus on a sole leaf"
+        },
+        {
+          "image" : "/assets/img/fall-2013/fall-13-5.jpg",
+          "caption" : "Overlooking colorful trees"
+        }
+      ]
     }
-
 
   ]
 }

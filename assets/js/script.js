@@ -1,9 +1,8 @@
 $(function() {
     // Initialize gallery
-    jsonGallery('/assets/data/portfolio.json', 4, 3, 0);
+    jsonGallery('/assets/data/gallery.json', 4, 3, 0);
     $("#email-address").html('codenameyau &#64; gmail.com');
-    $("h2").transition({scale: 1.2, delay: 2000 });
-    $("#start-btn").transition({y: '80px', delay: 5000});
+    $("#start-btn").transition({y: '40px', delay: 5000});
 });
 
 // Transition
