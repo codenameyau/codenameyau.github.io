@@ -15,7 +15,7 @@
 #json-gallery-modal img {margin: auto;}
 
 /* Change default carousel size */
-.modal-dialog {width: 1000px;}
+.modal-dialog {width: 980px;}
 
 
 /* Override bootstrap carousel */
@@ -50,7 +50,7 @@
 .carousel-control .glyphicon-chevron-right {right: 25%;}
 .carousel-caption {bottom: 0px; padding: 10px; color: #d1d1d1; letter-spacing: 1px;}
 .carousel-footer-bg {
-    background: rgba(0,0,0,.65);
+    background: rgba(0,0,0,.9);
     height: 60px;
     width: 100%;
     position: fixed;

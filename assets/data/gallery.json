@@ -8,6 +8,14 @@
         {
           "image" : "/assets/img/hvrminn/fw13.jpg",
           "caption" : "hvrminn - nyc mens fashion designer"
+        },
+        {
+          "image" : "/assets/img/hvrminn/ss14.jpg",
+          "caption" : "designed as a single page website"
+        },
+        {
+          "image" : "/assets/img/hvrminn/kanaval.jpg",
+          "caption" : "featuring hvrminn projects"
         }
       ]
     },
@@ -32,6 +40,30 @@
         {
           "image" : "/assets/img/technetium/graphs.jpg",
           "caption" : "Activity breakdown Graphs"
+        }
+      ]
+    },
+
+
+    {
+      "title" : "InformaTrip",
+      "link" : "https:www.informatrip.com",
+      "images" : [
+        {
+          "image" : "/assets/img/informatrip/featured.jpg",
+          "caption" : "InformaTrip - Travel deals aggregator and articles"
+        },
+        {
+          "image" : "/assets/img/informatrip/homepage.jpg",
+          "caption" : "Homepage with articles, trending locations, and featured deals"
+        },
+        {
+          "image" : "/assets/img/informatrip/deals.jpg",
+          "caption" : "Restaurant &amp; nightlife deals in new york"
+        },
+        {
+          "image" : "/assets/img/informatrip/article.jpg",
+          "caption" : "Article on staying warm in minneapolis"
         }
       ]
     }
