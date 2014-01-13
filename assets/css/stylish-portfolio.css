@@ -1,5 +1,4 @@
 /* Global Styles */
-
 html,
 body {
   height: 100%;
@@ -20,7 +19,6 @@ body {
 }
 
 /* Side Menu */
-
 #sidebar-wrapper {
   margin-right: -250px;
   right: 0;
@@ -106,7 +104,6 @@ body {
 }
 
 /* Full Page Image Header Area */
-
 .header {
   display: table;
   height: 100%;
@@ -120,7 +117,6 @@ body {
 }
 
 /* Intro */
-
 .intro {
   display: table;
   height: 100%;
@@ -128,7 +124,6 @@ body {
 }
 
 /* Services */
-
 .services {
   background: #7fbbda;
   padding: 50px 0;
@@ -157,22 +152,7 @@ i.service-icon:hover {
   border: 3px solid #29AFE8;
 }
 
-/* Callout */
-
-.callout {
-  color: #ffffff;
-  display: table;
-  height: 400px;
-  width: 100%;
-  background: url('/assets/img/call-out.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 /* Portfolio */
-
 .header-fill {
   padding: 50px 0;
 }
@@ -187,43 +167,7 @@ i.service-icon:hover {
   cursor: pointer;
 }
 
-
-/* Call to Action */
-
-.call-to-action {
-  color: #ffffff;
-  background: #0a5175;
-  padding: 50px 0;
-}
-
-.call-to-action .btn {
-  margin: 10px;
-}
-
-/* Map */
-
-.map {
-  height: 500px;
-}
-
-.top-scroll {
-  margin-top: 50px;
-}
-
-.top-scroll a {
-  text-decoration: none;
-  color: inherit;
-}
-
-i.scroll {
-  color: #333333;
-}
-
-i.scroll:hover {
-  color: #0a5175;
-}
 /* Responsive */
-
 @media (max-width: 768px) {
 
   .header {
