@@ -11,22 +11,22 @@
         },
         {
           "image" : "/assets/img/hvrminn/ss14.jpg",
-          "caption" : "built as a single page javascript website"
+          "caption" : "Built as a single page website with jQuery"
         },
         {
           "image" : "/assets/img/hvrminn/kanaval.jpg",
-          "caption" : "featuring a clean and elegant design"
+          "caption" : "Featuring a clean and elegant design"
         }
       ]
     },
 
     {
       "title" : "Json Gallery",
-      "link" : "https://codenameyau.github.io",
+      "link" : "http://codenameyau.github.io/json-gallery/",
       "images" : [
         {
           "image" : "/assets/img/json-gallery/gallery.jpg",
-          "caption" : "Custom javascript gallery designed for portfolios"
+          "caption" : "Json Gallery - javascript gallery designed for portfolios"
         },
         {
           "image" : "/assets/img/json-gallery/carousel.jpg",
