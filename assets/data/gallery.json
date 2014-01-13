@@ -11,39 +11,33 @@
         },
         {
           "image" : "/assets/img/hvrminn/ss14.jpg",
-          "caption" : "designed as a single page website"
+          "caption" : "built as a single page javascript website"
         },
         {
           "image" : "/assets/img/hvrminn/kanaval.jpg",
-          "caption" : "featuring hvrminn projects"
+          "caption" : "featuring a clean and elegant design"
         }
       ]
     },
-
 
     {
-      "title" : "Technetium",
-      "link" : "https://technetium.heroku.com",
+      "title" : "Json Gallery",
+      "link" : "https://codenameyau.github.io",
       "images" : [
         {
-          "image" : "/assets/img/technetium/issues.jpg",
-          "caption" : "Technetium - centralized issue tracker"
+          "image" : "/assets/img/json-gallery/gallery.jpg",
+          "caption" : "Custom javascript gallery designed for portfolios"
         },
         {
-          "image" : "/assets/img/technetium/subscriptions.jpg",
-          "caption" : "Bitbucket repository manager"
+          "image" : "/assets/img/json-gallery/carousel.jpg",
+          "caption" : "Clicking on a gallery reveals a slideshow"
         },
         {
-          "image" : "/assets/img/technetium/reports.jpg",
-          "caption" : "Reports and commits activity"
-        },
-        {
-          "image" : "/assets/img/technetium/graphs.jpg",
-          "caption" : "Activity breakdown Graphs"
+          "image" : "/assets/img/json-gallery/json.jpg",
+          "caption" : "The entire gallery is managed with json"
         }
       ]
     },
-
 
     {
       "title" : "InformaTrip",
@@ -51,11 +45,11 @@
       "images" : [
         {
           "image" : "/assets/img/informatrip/featured.jpg",
-          "caption" : "InformaTrip - Travel deals aggregator and articles"
+          "caption" : "InformaTrip - Travel articles and deals aggregator"
         },
         {
           "image" : "/assets/img/informatrip/homepage.jpg",
-          "caption" : "Homepage with articles, trending locations, and featured deals"
+          "caption" : "Homepage with featured articles and deals"
         },
         {
           "image" : "/assets/img/informatrip/deals.jpg",
@@ -64,6 +58,29 @@
         {
           "image" : "/assets/img/informatrip/article.jpg",
           "caption" : "Article on staying warm in minneapolis"
+        }
+      ]
+    },
+
+    {
+      "title" : "Technetium",
+      "link" : "https://technetium.heroku.com",
+      "images" : [
+        {
+          "image" : "/assets/img/technetium/issues.jpg",
+          "caption" : "Technetium - bitbucket centralized issue tracker"
+        },
+        {
+          "image" : "/assets/img/technetium/subscriptions.jpg",
+          "caption" : "Repository subscriptions"
+        },
+        {
+          "image" : "/assets/img/technetium/reports.jpg",
+          "caption" : "Reports and commit activity"
+        },
+        {
+          "image" : "/assets/img/technetium/graphs.jpg",
+          "caption" : "Graphs of user activity"
         }
       ]
     }

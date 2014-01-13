@@ -7,16 +7,8 @@
 .bg-contact { background: url('/assets/img/bg/navy-blue.png') repeat; }
 .bg-footer { background: url('/assets/img/bg/noisy_net.png') repeat; }
 
-
 /* Spacing */
 .space-bottom {margin-bottom: 50px;}
 .bottom-40 {margin-bottom: 40px;}
 .bottom-80 {margin-bottom: 80px;}
 .list-inline {word-spacing: 30px;}
-.img-thumbnail {
-    padding: 0;
-    border: 0px solid rgba(0,0,0,.80);
-    border-radius: 0;
-    box-shadow: 4px 4px 2px rgba(0,0,0,.5);
-}
-
