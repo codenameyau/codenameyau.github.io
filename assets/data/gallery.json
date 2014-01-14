@@ -7,7 +7,7 @@
       "images" : [
         {
           "image" : "/assets/img/hvrminn/fw13.jpg",
-          "caption" : "hvrminn - nyc mens fashion designer"
+          "caption" : "Hvrminn - website for nyc mens fashion designer"
         },
         {
           "image" : "/assets/img/hvrminn/ss14.jpg",
@@ -30,7 +30,7 @@
         },
         {
           "image" : "/assets/img/json-gallery/carousel.jpg",
-          "caption" : "Clicking on a gallery reveals a slideshow"
+          "caption" : "Clicking on a thumbnail reveals a slideshow"
         },
         {
           "image" : "/assets/img/json-gallery/json.jpg",
