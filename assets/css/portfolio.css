@@ -18,7 +18,9 @@ body {
   font-weight: 700;
 }
 
-/* Side Menu */
+/*************
+ * Side Menu *
+ *************/
 #sidebar-wrapper {
   margin-right: -250px;
   right: 0;
@@ -103,7 +105,9 @@ body {
   margin: 20px 20px 0 0;
 }
 
-/* Full Page Image Header Area */
+/**************************
+ * Full Page Image Header *
+ **************************/
 .header {
   display: table;
   height: 100%;
@@ -167,19 +171,83 @@ i.service-icon:hover {
   cursor: pointer;
 }
 
-/* Responsive */
+
+/***************
+ * Backgrounds *
+ ***************/
+.bg-clear { background: rgba(0,0,0,.85); }
+.bg-welcome { background: url('/assets/img/bg/dark_mosaic.png') repeat; }
+.bg-about { background: url('/assets/img/bg/noisy_net.png') repeat; }
+.bg-portfolio { background: url('/assets/img/bg/dark_denim.png') repeat; }
+.bg-skills { background: url('/assets/img/bg/pixel_weave.png') repeat; }
+.bg-contact { background: url('/assets/img/bg/navy-blue.png') repeat; }
+.bg-footer { background: url('/assets/img/bg/noisy_net.png') repeat; }
+
+/***********
+ * Spacing *
+ ***********/
+.space-bottom {margin-bottom: 50px;}
+.bottom-40 {margin-bottom: 40px;}
+.bottom-80 {margin-bottom: 80px;}
+.list-inline {word-spacing: 30px;}
+
+/**************
+ * Typography *
+ **************/
+h1, h2, h3 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    letter-spacing: 3px;
+    color: #fcfcfc;
+    cursor: default;
+    margin: auto;
+}
+
+h4 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    cursor: default;
+    font-weight: 700;
+}
+
+h4 a {color: #bbbbbb;}
+
+body {font-family: 'Alegreya Sans SC', sans-serif;}
+
+p, blockquote {font-family: 'Roboto Slab', serif;}
+
+blockquote {background: rgba(90,90,90,.20); border-left: 3px solid #eee;}
+
+hr {border-color: #999999;}
+
+.fa {
+    display: inline;
+    margin-right: 3px;
+}
+
+.btn-primary {
+    color: #fafafa;
+    border: none;
+}
+
+.social-links a,
+.social-links a:hover {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.text-white { color: #f1f1f1; }
+.text-dark { color: #3d3d3d; }
+.text-gray { color: #cccccc; }
+.text-justify { text-align: justify;}
+.text-left {text-align: left;}
+.text-center {text-align: center;}
+#contact-info {letter-spacing: 1px;}
+
+
+/**************
+ * Responsive *
+ **************/
 @media (max-width: 768px) {
-
-  .header {
-	background: url('/assets/img/bg.jpg') no-repeat center center scroll;
-  }
-
-  .callout {
-	background: url('/assets/img/bg.jpg') no-repeat center center scroll;
-  }
-
-  .map {
-	height: 75%;
-  }
-
+  .header {background: url('/assets/img/bg.jpg') no-repeat center center scroll;}
+  .callout {background: url('/assets/img/bg.jpg') no-repeat center center scroll;}
+  .map { height: 75%; }
 }
