@@ -6,9 +6,9 @@ $(function() {
 // Transition
 $(".tagline").hover(
     function() {
-        $(this).transition({scale: 1.2})},
+        $(this).transition({scale: 1.2})};,
     function() {
-        $(this).transition({scale: 1.0})}
+        $(this).transition({scale: 1.0})};
 );
 
 $(".service-icon, .lg-icon").hover(
