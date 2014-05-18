@@ -108,18 +108,6 @@ body {
 /**************************
  * Full Page Image Header *
  **************************/
-.header {
-  display: table;
-  height: 100%;
-  width: 100%;
-  position: relative;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  overflow-x: hidden;
-}
-
 /* Intro */
 .intro {
   display: table;
@@ -176,12 +164,12 @@ i.service-icon:hover {
  * Backgrounds *
  ***************/
 .bg-clear { background: rgba(0,0,0,.85); }
+.bg-welcome { background: url('../img/bg/dark_mosaic.png') repeat; }
 .bg-about { background: url('../img/bg/noisy_net.png') repeat; }
 .bg-portfolio { background: url('../img/bg/dark_denim.png') repeat; }
 .bg-skills { background: url('../img/bg/pixel_weave.png') repeat; }
 .bg-contact { background: url('../img/bg/navy-blue.png') repeat; }
 .bg-footer { background: url('../img/bg/noisy_net.png') repeat; }
-.bg-welcome { background: url('../img/bg/dark_mosaic.png') repeat; }
 
 /***********
  * Spacing *
