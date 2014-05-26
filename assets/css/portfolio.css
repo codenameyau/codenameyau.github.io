@@ -203,7 +203,10 @@ body {font-family: 'Alegreya Sans SC', sans-serif;}
 
 p, blockquote {font-family: 'Roboto Slab', serif;}
 
-blockquote {background: rgba(90,90,90,.20); border-left: 3px solid #eee;}
+blockquote {
+  background: rgba(60, 71, 81, 0.2);
+  border: 1px solid #aaa;
+}
 
 hr {border-color: #999999;}
 
@@ -235,7 +238,7 @@ hr {border-color: #999999;}
 /**************
  * Responsive *
  **************/
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   .header {background: url('../img/bg.jpg') no-repeat center center scroll;}
   .callout {background: url('../img/bg.jpg') no-repeat center center scroll;}
   .map { height: 75%; }
