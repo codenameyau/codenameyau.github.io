@@ -177,7 +177,7 @@ i.service-icon:hover {
 .container-center {width: 50%; margin-left: auto; margin-right: auto;}
 .space-bottom {margin-bottom: 50px;}
 .bottom-40 {margin-bottom: 40px;}
-.bottom-80 {margin-bottom: 80px;}
+.bottom-100 {margin-bottom: 100px;}
 .list-inline {word-spacing: 30px;}
 
 /**************
@@ -205,9 +205,10 @@ p, blockquote {font-family: 'Roboto Slab', serif;}
 
 blockquote {
   background: rgba(60, 71, 81, 0.2);
-  border: 1px solid #aaa;
+  border: 1px dashed #888;
 }
 
+p {margin-bottom: 20px;}
 hr {border-color: #999999;}
 
 .fa {
