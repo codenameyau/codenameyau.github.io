@@ -248,14 +248,19 @@ hr {border-color: #999999;}
 
 @media (max-width: 680px) {
   /* Containers */
+  .container {padding-left: 10px; padding-right: 10px;}
   .container-center {width: 98%;}
   .vert-text h1 {font-size: 2.8em}
   .col-xs-offset-2 {margin-left: 0;}
   .col-xs-4 {width: 100%;}
+  /* Json Gallery */
+  .img-thumbnail {width: 360px;}
+  .json-thumbnail-title {width: 385px;}
   /* Typography */
-  h2 {font-size: 1.5em}
+  h2 {font-size: 1.8em}
   h3, h4 {font-size: 1.2em}
   i.service-icon {display: none}
+  .btn-primary, .btn-default {display: none}
   /* Footer */
   .fa-5x {font-size: 3.5em;}
   .list-inline {word-spacing: 10px;}
