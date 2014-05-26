@@ -21,3 +21,9 @@ $(".service-icon, .lg-icon").hover(
         $(this).transition({rotate: '0deg'});
     }
 );
+
+$(".service-icon, .lg-icon").click(
+    function() {
+        $(this).transition({rotate: '0deg'});
+    }
+);

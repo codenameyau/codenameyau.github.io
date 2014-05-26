@@ -246,6 +246,17 @@ hr {border-color: #999999;}
   .container-center {width: 80%;}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 680px) {
+  /* Containers */
   .container-center {width: 98%;}
+  .vert-text h1 {font-size: 2.8em}
+  .col-xs-offset-2 {margin-left: 0;}
+  .col-xs-4 {width: 100%;}
+  /* Typography */
+  h2 {font-size: 1.5em}
+  h3, h4 {font-size: 1.2em}
+  i.service-icon {display: none}
+  /* Footer */
+  .fa-5x {font-size: 3.5em;}
+  .list-inline {word-spacing: 10px;}
 }
