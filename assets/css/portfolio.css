@@ -254,11 +254,13 @@ hr {border-color: #999999;}
   .col-xs-offset-2 {margin-left: 0;}
   .col-xs-4 {width: 100%;}
   /* Json Gallery */
-  .img-thumbnail {width: 360px;}
-  .json-thumbnail-title {width: 385px;}
+  .img-thumbnail, .json-thumbnail-title {
+    width: 360px !important; height: 260px !important;}
+  .json-thumbnail-title {line-height: 260px; margin-top: -260px;}
   /* Typography */
-  h2 {font-size: 1.8em}
+  h2 {font-size: 1.5em}
   h3, h4 {font-size: 1.2em}
+  p {text-align: justify; padding: 5px 15px;}
   i.service-icon {display: none}
   .btn-primary, .btn-default {display: none}
   /* Footer */
