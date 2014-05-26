@@ -251,12 +251,12 @@ hr {border-color: #999999;}
   .container {padding-left: 10px; padding-right: 10px;}
   .container-center {width: 98%;}
   .vert-text h1 {font-size: 2.8em}
-  .col-xs-offset-2 {margin-left: 0;}
-  .col-xs-4 {width: 100%;}
+  .col-md-offset-1, .col-xs-offset-2 {margin-left: 0;}
+  .col-md-5, .col-xs-4 {width: 100%;}
   /* Json Gallery */
   .img-thumbnail, .json-thumbnail-title {
-    width: 360px !important; height: 260px !important;}
-  .json-thumbnail-title {line-height: 260px; margin-top: -260px;}
+    width: 260px !important; height: 200px !important;}
+  .json-thumbnail-title {line-height: 200px; margin-top: -200px;}
   /* Typography */
   h2 {font-size: 1.5em}
   h3, h4 {font-size: 1.2em}
