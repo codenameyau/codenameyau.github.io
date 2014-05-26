@@ -248,11 +248,10 @@ hr {border-color: #999999;}
 
 @media (max-width: 680px) {
   /* Containers */
-  .container {padding-left: 10px; padding-right: 10px;}
   .container-center {width: 98%;}
   .vert-text h1 {font-size: 2.8em}
   .col-md-offset-1, .col-xs-offset-2 {margin-left: 0;}
-  .col-md-5, .col-xs-4 {width: 100%;}
+  .col-md-5, .col-xs-4 {width: 100%; padding: 0}
   /* Json Gallery */
   .img-thumbnail, .json-thumbnail-title {
     width: 260px !important; height: 200px !important;}
@@ -262,7 +261,7 @@ hr {border-color: #999999;}
   h3, h4 {font-size: 1.2em}
   p {text-align: justify; padding: 5px 15px;}
   i.service-icon {display: none}
-  .btn-primary, .btn-default {display: none}
+  .btn-user {display: none}
   /* Footer */
   .fa-5x {font-size: 3.5em;}
   .list-inline {word-spacing: 10px;}
