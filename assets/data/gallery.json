@@ -6,15 +6,15 @@
       "link" : "http://hvrminn.com/",
       "images" : [
         {
-          "image" : "/assets/img/hvrminn/fw13.jpg",
+          "image" : "assets/img/hvrminn/fw13.jpg",
           "caption" : "Hvrminn - website for nyc mens fashion designer"
         },
         {
-          "image" : "/assets/img/hvrminn/ss14.jpg",
+          "image" : "assets/img/hvrminn/ss14.jpg",
           "caption" : "Built as a single page website with jQuery"
         },
         {
-          "image" : "/assets/img/hvrminn/kanaval.jpg",
+          "image" : "assets/img/hvrminn/kanaval.jpg",
           "caption" : "Featuring a clean and elegant design"
         }
       ]
@@ -25,15 +25,15 @@
       "link" : "http://codenameyau.github.io/json-gallery/",
       "images" : [
         {
-          "image" : "/assets/img/json-gallery/gallery.jpg",
+          "image" : "assets/img/json-gallery/gallery.jpg",
           "caption" : "Json Gallery - javascript gallery designed for portfolios"
         },
         {
-          "image" : "/assets/img/json-gallery/carousel.jpg",
+          "image" : "assets/img/json-gallery/carousel.jpg",
           "caption" : "Clicking on a thumbnail reveals a slideshow"
         },
         {
-          "image" : "/assets/img/json-gallery/json.jpg",
+          "image" : "assets/img/json-gallery/json.jpg",
           "caption" : "The entire gallery is managed with json"
         }
       ]
@@ -44,19 +44,19 @@
       "link" : "https://www.informatrip.com",
       "images" : [
         {
-          "image" : "/assets/img/informatrip/featured.jpg",
+          "image" : "assets/img/informatrip/featured.jpg",
           "caption" : "InformaTrip - Travel articles and deals aggregator"
         },
         {
-          "image" : "/assets/img/informatrip/homepage.jpg",
+          "image" : "assets/img/informatrip/homepage.jpg",
           "caption" : "Homepage with featured articles and deals"
         },
         {
-          "image" : "/assets/img/informatrip/deals.jpg",
+          "image" : "assets/img/informatrip/deals.jpg",
           "caption" : "Restaurant &amp; nightlife deals in new york"
         },
         {
-          "image" : "/assets/img/informatrip/article.jpg",
+          "image" : "assets/img/informatrip/article.jpg",
           "caption" : "Article on staying warm in minneapolis"
         }
       ]
@@ -67,19 +67,19 @@
       "link" : "https://technetium.heroku.com",
       "images" : [
         {
-          "image" : "/assets/img/technetium/issues.jpg",
+          "image" : "assets/img/technetium/issues.jpg",
           "caption" : "Technetium - bitbucket centralized issue tracker"
         },
         {
-          "image" : "/assets/img/technetium/subscriptions.jpg",
+          "image" : "assets/img/technetium/subscriptions.jpg",
           "caption" : "Repository subscriptions"
         },
         {
-          "image" : "/assets/img/technetium/reports.jpg",
+          "image" : "assets/img/technetium/reports.jpg",
           "caption" : "Reports and commit activity"
         },
         {
-          "image" : "/assets/img/technetium/graphs.jpg",
+          "image" : "assets/img/technetium/graphs.jpg",
           "caption" : "Graphs of user activity"
         }
       ]
