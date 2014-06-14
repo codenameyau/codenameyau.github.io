@@ -180,7 +180,7 @@ i.service-icon:hover {
 .space-bottom {margin-bottom: 50px;}
 .bottom-40 {margin-bottom: 40px;}
 .bottom-100 {margin-bottom: 100px;}
-.list-inline {word-spacing: 30px;}
+.list-inline {word-spacing: 30px; margin-left: -30px;}
 
 
 /**************
