@@ -180,6 +180,7 @@ i.service-icon:hover {
  * Spacing *
  ***********/
 .container-center {width: 50%; margin-left: auto; margin-right: auto;}
+.container-mid {width: 75%; margin-left: auto; margin-right: auto;}
 .space-bottom {margin-bottom: 50px;}
 .bottom-40 {margin-bottom: 40px;}
 .bottom-100 {margin-bottom: 100px;}
@@ -239,6 +240,7 @@ hr {border-color: #999999;}
 .text-justify { text-align: justify;}
 .text-left {text-align: left;}
 .text-center {text-align: center;}
+.lead {cursor: default;}
 #contact-info {letter-spacing: 1px;}
 
 
@@ -253,7 +255,9 @@ hr {border-color: #999999;}
 }
 
 @media (max-width: 1000px) {
-  .container-center {width: 80%;}
+  .container-center, .container-mid {width: 80%;}
+
+
 }
 
 @media (max-width: 800px) {
@@ -273,7 +277,7 @@ hr {border-color: #999999;}
 }
 
 @media (max-width: 450px) {
-  .container-center {width: 98%;}
+  .container-center, .container-mid {width: 98%;}
   .img-thumbnail, .json-thumbnail-title {
     width: 90% !important; height: 200px !important;}
   .json-thumbnail-title {line-height: 200px; margin-top: -200px;}
