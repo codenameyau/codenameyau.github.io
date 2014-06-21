@@ -29,10 +29,6 @@
           "caption" : "Json Gallery - javascript gallery designed for portfolios"
         },
         {
-          "image" : "assets/img/json-gallery/carousel.jpg",
-          "caption" : "Clicking on a thumbnail reveals a slideshow"
-        },
-        {
           "image" : "assets/img/json-gallery/json.jpg",
           "caption" : "The entire gallery is managed with json"
         }

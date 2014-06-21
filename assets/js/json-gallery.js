@@ -1,5 +1,5 @@
 /*!
- * json-gallery [v0.3]
+ * json-gallery v0.3
  * MIT License (c) 2014 Jorge Yau
  * codenameyau.github.io
  */
