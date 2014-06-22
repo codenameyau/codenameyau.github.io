@@ -213,7 +213,8 @@ p, blockquote {
 
 blockquote {
   background: rgba(60, 71, 81, 0.2);
-  border: 1px dashed #888;
+  border: 1px dashed #888888;
+  box-shadow: 5px 5px 5px #0c0c0c;
 }
 
 p {margin-bottom: 20px;}
@@ -255,7 +256,7 @@ hr {border-color: #999999;}
 
 .hover-active:hover {
   cursor: pointer;
-  background: rgba(30, 150, 240, .35);
+  background: rgba(30, 170, 250, .40);
 }
 
 /**************
