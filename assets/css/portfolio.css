@@ -5,10 +5,10 @@ body {
   width: 100%;
 }
 a, a:active, a:hover, a:visited {
-  text-decoration: none;
-  border: none;
-  outline: 0;
   color: #fafafa;
+}
+.projects-list > a:hover {
+  text-decoration: none;
 }
 .vert-text {
   display: table-cell;
@@ -256,7 +256,7 @@ hr {border-color: #999999;}
 
 .hover-active:hover {
   cursor: pointer;
-  background: rgba(30, 170, 250, .40);
+  background: rgba(50, 210, 250, .40);
 }
 
 /**************
