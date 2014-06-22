@@ -4,10 +4,11 @@ body {
   height: 100%;
   width: 100%;
 }
-a, a:active, a:visited {
+a, a:active, a:hover, a:visited {
   text-decoration: none;
   border: none;
   outline: 0;
+  color: #fafafa;
 }
 .vert-text {
   display: table-cell;
@@ -169,11 +170,8 @@ i.service-icon:hover {
  ***************/
 .bg-clear { background: rgba(0,0,0,.85); }
 .bg-welcome { background: url('../img/bg/dark_mosaic.png') repeat; }
-.bg-about { background: url('../img/bg/binding_dark.png') repeat; }
-.bg-portfolio { background: url('../img/bg/dark_denim.png') repeat; }
-.bg-projects { background: url('../img/bg/noisy_net.png') repeat; }
-.bg-contact { background: url('../img/bg/classy_fabric.png') repeat; }
-.bg-footer { background: url('../img/bg/binding_dark.png') repeat; }
+.bg-bind-dark { background: url('../img/bg/binding_dark.png') repeat; }
+.bg-bind-light { background: url('../img/bg/classy_fabric.png') repeat; }
 
 
 /***********
@@ -203,14 +201,15 @@ h2 {font-size: 30px;}
 h4 {
     font-family: 'Alegreya Sans SC', sans-serif;
     cursor: default;
-    font-weight: 700;
 }
 
 h4 a {color: #bbbbbb;}
 
 body {font-family: 'Alegreya Sans SC', sans-serif;}
 
-p, blockquote {font-family: 'Roboto Slab', serif;}
+p, blockquote {
+  font-family: 'Roboto Slab', serif;
+}
 
 blockquote {
   background: rgba(60, 71, 81, 0.2);
@@ -245,6 +244,14 @@ hr {border-color: #999999;}
 .lead {cursor: default; line-height: 1.9;}
 #contact-info {letter-spacing: 1px;}
 
+
+/*****************
+ * Project-Hover *
+ *****************/
+.hover:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, .25);
+}
 
 /**************
  * Responsive *
