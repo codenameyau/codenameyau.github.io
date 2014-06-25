@@ -11,11 +11,11 @@
         },
         {
           "image" : "assets/img/hvrminn/ss14.jpg",
-          "caption" : "Built as a single page website with jQuery"
+          "caption" : "Built as a single page website"
         },
         {
           "image" : "assets/img/hvrminn/kanaval.jpg",
-          "caption" : "Featuring a clean and elegant design"
+          "caption" : "Featuring a minimalistic and elegant design"
         }
       ]
     },
@@ -41,19 +41,15 @@
       "images" : [
         {
           "image" : "assets/img/informatrip/featured.jpg",
-          "caption" : "InformaTrip - Travel articles and deals aggregator"
-        },
-        {
-          "image" : "assets/img/informatrip/homepage.jpg",
-          "caption" : "Homepage with featured articles and deals"
+          "caption" : "InformaTrip - Deals aggregator and travel articles"
         },
         {
           "image" : "assets/img/informatrip/deals.jpg",
-          "caption" : "Restaurant &amp; nightlife deals in new york"
+          "caption" : "Search for deals in specific locations and categories"
         },
         {
           "image" : "assets/img/informatrip/article.jpg",
-          "caption" : "Article on staying warm in minneapolis"
+          "caption" : "Built-in content managemant system for travel articles"
         }
       ]
     },
