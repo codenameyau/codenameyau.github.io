@@ -312,7 +312,9 @@ i.service-icon:hover {
 .container-center {width: 50%; margin-left: auto; margin-right: auto;}
 .container-mid {width: 75%; margin-left: auto; margin-right: auto;}
 .space-bottom {margin-bottom: 50px;}
+.top-50 {margin-top: 50px;}
 .bottom-40 {margin-bottom: 40px;}
+.bottom-60 {margin-bottom: 60px;}
 .bottom-100 {margin-bottom: 100px;}
 .list-inline {word-spacing: 30px; margin-left: -30px;}
 
@@ -329,7 +331,7 @@ h1, h2, h3 {
 }
 
 h2 {font-size: 30px;}
-
+h3 {font-size: 25px;}
 h4 {
     font-family: 'Alegreya Sans SC', sans-serif;
     cursor: default;
@@ -375,7 +377,7 @@ hr {border-color: #999999;}
 .text-left {text-align: left;}
 .text-center {text-align: center;}
 .lead {cursor: default; line-height: 1.9;}
-#contact-info {letter-spacing: 1px;}
+.contact {letter-spacing: 1px;}
 
 
 /*****************
@@ -388,7 +390,7 @@ hr {border-color: #999999;}
 
 .hover-active:hover {
   cursor: pointer;
-  background: rgba(50, 210, 250, .40);
+  background: rgba(66, 170, 250, .50);
 }
 
 /**************
