@@ -399,7 +399,7 @@ hr {border-color: #999999;}
 
 .hover-active:hover {
   cursor: pointer;
-  background: rgba(66, 170, 250, .50);
+  background: rgba(80, 220, 250, .50);
 }
 
 /**************
@@ -412,7 +412,7 @@ hr {border-color: #999999;}
   .json-thumbnail-title {line-height: 240px; margin-top: -240px;}
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .container-center, .container-mid {width: 80%;}
 }
 
