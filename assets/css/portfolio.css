@@ -365,7 +365,7 @@ hr {border-color: #999999;}
 
 .fa {
     display: inline;
-    margin-right: 3px;
+    margin-right: 8px;
 }
 
 .btn-primary {
@@ -399,7 +399,7 @@ hr {border-color: #999999;}
 
 .hover-active:hover {
   cursor: pointer;
-  background: rgba(80, 220, 250, .50);
+  background: rgba(80, 160, 250, .50);
 }
 
 /**************
