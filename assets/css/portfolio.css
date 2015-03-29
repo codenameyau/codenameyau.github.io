@@ -4,14 +4,17 @@
  */
 
 /* Change default carousel size */
-.modal-dialog {width: 980px;}
+.modal-dialog {
+  width: 1000px;
+  margin-top: 90px;
+}
 
 /* Change thumbnail default width */
 #json-gallery .img-thumbnail {height: 280px; width: 455px;}
 
 /* Gallery thumbnail */
 .gallery-item {
-    margin: 15px 0px;
+    margin: 15px 0;
     margin-left: auto;
     margin-right: auto;
 }
@@ -254,6 +257,11 @@ html {
   user-select: none;
 }
 
+/* Bootstrap buttons */
+.btn-lg, .btn-group-lg>.btn {
+  font-size: 20px;
+}
+
 /* Intro */
 .intro {
   display: table;
@@ -325,7 +333,6 @@ i.service-icon:hover {
 .bottom-40 {margin-bottom: 40px;}
 .bottom-60 {margin-bottom: 60px;}
 .bottom-100 {margin-bottom: 100px;}
-.list-inline {word-spacing: 30px; margin-left: -30px;}
 
 
 /**************
@@ -339,8 +346,8 @@ h1, h2, h3 {
     margin: auto;
 }
 
-h2 {font-size: 30px;}
-h3 {font-size: 25px;}
+h2 {font-size: 35px;}
+h3 {font-size: 30px;}
 h4 {
     font-family: 'Alegreya Sans SC', sans-serif;
     cursor: default;
@@ -379,13 +386,24 @@ hr {border-color: #999999;}
     text-decoration: none;
 }
 
+.lead {
+  cursor: default;
+  line-height: 1.95;
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+
+.list-inline {
+  margin: 0px auto 30px auto;
+  word-spacing: 35px;
+}
+
 .text-white { color: #f1f1f1; }
 .text-dark { color: #3d3d3d; }
 .text-gray { color: #cccccc; }
 .text-justify { text-align: justify;}
 .text-left {text-align: left;}
 .text-center {text-align: center;}
-.lead {cursor: default; line-height: 1.95;}
 .contact {letter-spacing: 1px;}
 
 
