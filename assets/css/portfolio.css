@@ -333,6 +333,7 @@ i.service-icon:hover {
 .bottom-40 {margin-bottom: 40px;}
 .bottom-60 {margin-bottom: 60px;}
 .bottom-100 {margin-bottom: 100px;}
+.icon-space {margin-left: 10px;}
 
 
 /**************
@@ -372,7 +373,6 @@ hr {border-color: #999999;}
 
 .fa {
     display: inline;
-    margin-right: 8px;
 }
 
 .btn-primary {
