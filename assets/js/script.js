@@ -57,8 +57,40 @@ $(".service-icon, .lg-icon").hover(
   }
 );
 
-$(".service-icon, .lg-icon").click(
-  function() {
-    $(this).transition({rotate: '0deg'});
-  }
-);
+$(".service-icon, .lg-icon").click(function() {
+  $(this).transition({rotate: '0deg'});
+});
+
+
+// GA Event tracking
+$("#menu-toggle").click(function() {
+  ga('send', 'event', 'button', 'click', 'nav menu');
+});
+
+$("#start-btn").click(function() {
+  ga('send', 'event', 'button', 'click', 'start btn');
+});
+
+$("#portfolio-btn").click(function() {
+  ga('send', 'event', 'button', 'click', 'portfolio btn');
+});
+
+$("#projects-btn").click(function() {
+  ga('send', 'event', 'button', 'click', 'projects btn');
+});
+
+$(".projects-list a").click(function() {
+  ga('send', 'event', 'button', 'click', 'project item');
+});
+
+$("#github-link").click(function() {
+  ga('send', 'event', 'button', 'click', 'github link');
+});
+
+$("#bitbucket-link").click(function() {
+  ga('send', 'event', 'button', 'click', 'bitbucket link');
+});
+
+$("#linkedin-link").click(function() {
+  ga('send', 'event', 'button', 'click', 'linkedin link');
+});
