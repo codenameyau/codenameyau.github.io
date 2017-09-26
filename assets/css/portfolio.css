@@ -413,7 +413,7 @@ hr {border-color: #999999;}
 
 .hover-active:hover {
   cursor: pointer;
-  background: rgba(80, 160, 250, .50);
+  background: rgba(80, 160, 250, .65);
 }
 
 /**************
