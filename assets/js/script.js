@@ -26,17 +26,16 @@ $(function() {
   });
 });
 
-
-// Initialize JSON gallery
+// Main script
 $(function() {
   jsonGallery('assets/data/gallery.json', 5, 2, 1);
   $("#contact-info").html('&#99;&#32;&#111;&#32;&#100;&#32;&#101;&#32;&#110;&#32;&#97;&#32;&#109;&#32;&#101;&#32;&#121;&#32;&#97;&#32;&#117;&#32;&#32;&#32;&#64;&#32;&#32;&#32;&#103;&#32;&#109;&#32;&#97;&#32;&#105;&#32;&#108;&#32;&#46;&#32;&#99;&#32;&#111;&#32;&#109;');
 
   // Calculate year for copyright
-  var year = new Date().getFullYear();
-  $("#copyright").html("Copyright &copy; " + year + " Jorge Yau");
+  var year = (new Date()).getFullYear();
+  $('.years-programmed').html(year - 2009);
+  $(".copyright-year").html(year);
 });
-
 
 // Transition
 $(".tagline").hover(
@@ -60,7 +59,6 @@ $(".service-icon, .lg-icon").hover(
 $(".service-icon, .lg-icon").click(function() {
   $(this).transition({rotate: '0deg'});
 });
-
 
 // GA Event tracking
 $("#menu-toggle").click(function() {

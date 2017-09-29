@@ -138,6 +138,10 @@ a:active {
   text-decoration: none;
 }
 
+a.link {
+  font-weight: bold;
+}
+
 .projects-list > a:hover {
   text-decoration: none;
 }
@@ -323,9 +327,9 @@ i.service-icon:hover {
 /***********
  * Spacing *
  ***********/
-.container-center {width: 50%; margin-left: auto; margin-right: auto;}
-.container-mid {width: 75%; margin-left: auto; margin-right: auto;}
-.space-bottom {margin-bottom: 50px;}
+.container-center {width: 800px; margin: auto;}
+.container-mid {width: 75%; margin: auto;}
+.heading {margin: 50px auto;}
 .top-50 {margin-top: 50px;}
 .bottom-40 {margin-bottom: 40px;}
 .bottom-60 {margin-bottom: 60px;}
@@ -337,18 +341,18 @@ i.service-icon:hover {
  * Typography *
  **************/
 h1, h2, h3 {
-    font-family: 'Alegreya Sans SC', sans-serif;
-    letter-spacing: 3px;
-    color: #fcfcfc;
-    cursor: default;
-    margin: auto;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  letter-spacing: 3px;
+  color: #fcfcfc;
+  cursor: default;
+  margin: auto;
 }
 
 h2 {font-size: 35px;}
 h3 {font-size: 30px;}
 h4 {
-    font-family: 'Alegreya Sans SC', sans-serif;
-    cursor: default;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  cursor: default;
 }
 
 h4 a {color: #bbbbbb;}
@@ -357,12 +361,6 @@ body {font-family: 'Alegreya Sans SC', sans-serif;}
 
 p, blockquote {
   font-family: 'Roboto Slab', serif;
-}
-
-blockquote {
-  background: rgba(60, 71, 81, 0.2);
-  border: 1px dashed #888888;
-  box-shadow: 5px 5px 5px #0c0c0c;
 }
 
 p {margin-bottom: 20px;}
@@ -383,11 +381,23 @@ hr {border-color: #999999;}
     text-decoration: none;
 }
 
-.lead {
+.box-item {
   cursor: default;
   line-height: 1.95;
   letter-spacing: 1px;
   font-size: 22px;
+  background: rgba(60, 71, 81, 0.2);
+  border: 1px dashed #888888;
+  box-shadow: 5px 5px 5px #0c0c0c;
+}
+
+.lead {
+  padding: 20px 30px;
+}
+
+.project-item {
+  padding: 10px 20px;
+  margin: 25px 0;
 }
 
 .list-inline {
@@ -442,7 +452,7 @@ hr {border-color: #999999;}
   /* Typography */
   h2 {font-size: 2.0em}
   h3, h4 {font-size: 2.0em}
-  p {padding: 5px 10%;}
+  p {padding: 5px;}
   i.service-icon {display: none}
   .fa-5x {font-size: 3.5em;}
 }
@@ -454,10 +464,10 @@ hr {border-color: #999999;}
   .json-thumbnail-title {line-height: 200px; margin-top: -200px;}
   .lead {font-size: 12px;}
 
-    /* Typography */
+  /* Typography */
   h2 {font-size: 1.5em}
   h3, h4 {font-size: 1.2em}
-  p {padding: 5px 10%;}
+  p {font-size: 4vw}
   i.service-icon {display: none}
   .fa-5x {font-size: 3.5em;}
 }
